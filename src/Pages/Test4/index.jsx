@@ -10,6 +10,9 @@ import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { Suspense } from "react";
 import { OrbitControls } from "@react-three/drei";
 
+//To import the file uploader
+import SingleFileUploader from "../../components/SingleFileUploader";
+
 //to import styles
 import "./Test4.css";
 
@@ -45,6 +48,7 @@ export default function Test4() {
           </Suspense>
         </Canvas>
       </div>
+      <SingleFileUploader />
     </div>
   );
 }
